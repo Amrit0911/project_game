@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 600px;
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #555;
+  margin: 15px 0;
+}
+
+h4 {
+  font-size: 1.2rem;
+  color: #666;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #667eea;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.moves-section {
+  background: #f8f9ff;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px 0;
+  border: 2px solid #667eea;
+}
+
+.result {
+  font-size: 1.8rem;
+  color: #764ba2;
+  margin: 20px 0;
+  font-weight: bold;
+  min-height: 30px;
+}
+
+.stats {
+  background: #fff3e0;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px 0;
+  border: 2px solid #ffa726;
+}
+
+.buttons {
+  margin: 30px 0;
+}
+
+button {
+  width: 80px;
+  height: 80px;
+  font-size: 2.5rem;
+  border: none;
+  border-radius: 15px;
+  margin: 10px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(102, 126, 234, 0.6);
+}
+
+button:active {
+  transform: translateY(-2px);
+}
+
+.reset-btn {
+  width: auto;
+  height: auto;
+  padding: 12px 30px;
+  font-size: 1rem;
+  margin-top: 20px;
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.reset-btn:hover {
+  transform: translateY(-3px);
+}
+
+.history {
+  background: #e8f5e9;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 30px;
+  border: 2px solid #4caf50;
+  text-align: left;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.history p {
+  color: #333;
+  font-size: 0.95rem;
+  text-align: center;
+}
